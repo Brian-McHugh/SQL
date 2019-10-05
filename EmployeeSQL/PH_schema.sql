@@ -1,6 +1,13 @@
 ﻿-- Exported from QuickDBD: https://www.quickdatabasediagrams.com/
 -- NOTE! If you have used non-SQL datatypes in your design, you will have to change these here.
 
+DROP TABLE IF EXISTS departments;
+DROP TABLE IF EXISTS dept_emp;
+DROP TABLE IF EXISTS dept_manager;
+DROP TABLE IF EXISTS employees;
+DROP TABLE IF EXISTS salaries;
+DROP TABLE IF EXISTS titles;
+
 -- Create a table of departments
 CREATE TABLE "departments" (
     "dept_no" VARCHAR(5)   NOT NULL,
